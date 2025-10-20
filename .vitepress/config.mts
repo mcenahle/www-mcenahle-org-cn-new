@@ -15,6 +15,7 @@ export default defineConfig({
       level: [1, 3],    // 显示 h1 到 h3 级别的标题
     },
     externalLinkIcon: true,
+    logo: '/favicon.png',
     head: [
       ['link', { rel: 'icon', href: '/favicon.png' }]
     ],
