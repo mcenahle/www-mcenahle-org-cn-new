@@ -15,6 +15,9 @@ export default defineConfig({
       level: [1, 3],    // 显示 h1 到 h3 级别的标题
     },
     externalLinkIcon: true,
+    head: [
+      ['link', { rel: 'icon', href: '/favicon.png' }]
+    ],
     nav: [
       { text: '主页', link: '/' },
       { text: '关于我', link: '/my/' }
