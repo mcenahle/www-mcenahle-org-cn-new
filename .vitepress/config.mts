@@ -9,6 +9,10 @@ export default defineConfig({
   outDir: 'dist',
   ignoreDeadLinks: true,
   cleanUrls: true,
+  sitemap: {
+    hostname: 'https://www-new.mcenahle.org.cn'
+  },
+  lastUpdated: true,
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     outline: {
