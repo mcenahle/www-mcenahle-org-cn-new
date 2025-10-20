@@ -49,28 +49,10 @@ export default defineConfig({
         ]
       },
       {
-        text: 'Advanced',
-        collapsed: true,
+        text: '示例',
         items: [
-          { text: 'Custom Theme', link: '/advanced/custom-theme' },
-          { text: 'Markdown Extensions', link: '/advanced/markdown-extensions' },
-          { text: 'Code Highlighting', link: '/advanced/code-highlighting' }
-        ]
-      },
-      {
-        text: 'Deployment',
-        collapsed: true,
-        items: [
-          { text: 'Build for Production', link: '/quick-start/quick-start#build-for-production' },
-          { text: 'GitHub Pages', link: '/quick-start/quick-start#deploy-to-github-pages' },
-          { text: 'Netlify', link: '/quick-start/quick-start#netlify-deployment' }
-        ]
-      },
-      {
-        text: 'Examples',
-        items: [
-          { text: 'Markdown Examples', link: '/examples/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/examples/api-examples' }
+          { text: 'Markdown 示例', link: '/examples/markdown-examples' },
+          { text: 'Runtime API 示例', link: '/examples/api-examples' }
         ]
       }
     ],
