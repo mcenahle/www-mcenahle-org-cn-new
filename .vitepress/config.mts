@@ -45,11 +45,17 @@ export default defineConfig({
     sidebar: [
       {
         text: '关于我',
-        collapsed: false,
         items: [
           { text: '关于我 - 首页', link: '/my/' },
           { text: '我的项目', link: '/my/proj' },
           { text: '我的联系方式', link: '/my/contacts' }
+        ]
+      },
+      {
+        text: '随笔',
+        collapsed: false,
+        items: [
+          { text: '性格与行为', link: '/thoughts/personality-and-behavior/' }
         ]
       },
       {
