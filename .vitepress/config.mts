@@ -48,8 +48,8 @@ export default defineConfig({
         collapsed: false,
         items: [
           { text: '关于我 - 首页', link: '/my/' },
-          { text: '我的联系方式', link: '/my/contacts' },
-          { text: '我的项目', link: '/my/proj' }
+          { text: '我的项目', link: '/my/proj' },
+          { text: '我的联系方式', link: '/my/contacts' }
         ]
       },
       {
