@@ -4,7 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   lang: "zh-CN",
   title: "www.mcenahle.org.cn",
-  description: "用Vitepress搭建的新版主页",
+  description: "用 Vitepress 搭建的新版主页",
   srcDir: 'pages',
   outDir: 'dist',
   ignoreDeadLinks: true,
@@ -15,9 +15,9 @@ export default defineConfig({
       level: [1, 3],    // 显示 h1 到 h3 级别的标题
     },
     externalLinkIcon: true,
-    logo: '/favicon.png',
+    logo: '/favicon.ico',
     head: [
-      ['link', { rel: 'icon', href: '/favicon.png' }]
+      [['link', { rel: 'icon', href: '/favicon.ico' }]]
     ],
     nav: [
       { text: '主页', link: '/' },
