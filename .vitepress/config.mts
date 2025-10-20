@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  lang: "zh-CN",
   title: "www.mcenahle.org.cn",
   description: "用Vitepress搭建的新版主页",
   srcDir: 'pages',
@@ -13,6 +14,7 @@ export default defineConfig({
     outline: {
       level: [1, 3],    // 显示 h1 到 h3 级别的标题
     },
+    externalLinkIcon: true,
     nav: [
       { text: '主页', link: '/' },
       { text: '关于我', link: '/my/' }
@@ -22,6 +24,19 @@ export default defineConfig({
       pattern: 'https://github.com/mcenahle/www-mcenahle-org-cn-new/edit/main/pages/:path',
       text: '在 GitHub 上编辑此页'
     },
+    
+    docFooter: {
+      prev: "上一页",
+      next: "下一页",
+    },
+
+    darkModeSwitchLabel: "外观",
+    darkModeSwitchTitle: "切换到深色模式",
+    lightModeSwitchTitle: "切换到浅色模式",
+    sidebarMenuLabel: "目录",
+    returnToTopLabel: "返回顶部",
+    lastUpdatedText: "最后更新",
+    outlineTitle: "页面导航",
 
     sidebar: [
       {
