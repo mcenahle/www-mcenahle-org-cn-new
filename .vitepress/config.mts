@@ -2,8 +2,8 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "vitepress-template",
-  description: "A starter template for VitePress",
+  title: "www.mcenahle.org.cn",
+  description: "用Vitepress搭建的新版主页",
   srcDir: 'pages',
   outDir: 'dist',
   ignoreDeadLinks: true,
@@ -14,20 +14,23 @@ export default defineConfig({
       level: [1, 3],    // 显示 h1 到 h3 级别的标题
     },
     nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Quick Start', link: '/quick-start/quick-start' },
-      { text: 'Examples', link: '/examples/markdown-examples' }
+      { text: '主页', link: '/' },
+      { text: '关于我', link: '/me/' }
     ],
+
+    editLink: {
+      pattern: 'https://github.com/mcenahle/www-mcenahle-org-cn-new/edit/main/pages/:path',
+      text: '在 GitHub 上编辑此页'
+    },
 
     sidebar: [
       {
-        text: 'Quick Start',
+        text: '关于我',
         collapsed: true,
         items: [
-          { text: 'Overview', link: '/quick-start/quick-start' },
-          { text: 'Installation', link: '/quick-start/quick-start#installation' },
-          { text: 'Basic Setup', link: '/quick-start/quick-start#basic-setup' },
-          { text: 'Configuration', link: '/quick-start/quick-start#configuration' }
+          { text: '关于我 - 首页', link: '/me/' },
+          { text: '我的联系方式', link: '/me/contacts' },
+          { text: '我的项目', link: '/me/proj' }
         ]
       },
       {
@@ -58,7 +61,7 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/TencentEdgeOne/pages-templates/tree/main/examples/vitepress-template' }
+      { icon: 'github', link: 'https://github.com/mcenahle' }
     ]
   }
 })
