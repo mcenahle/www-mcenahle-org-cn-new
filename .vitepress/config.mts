@@ -25,7 +25,9 @@ export default defineConfig({
     ],
     nav: [
       { text: '主页', link: '/' },
-      { text: '关于我', link: '/my/' }
+      { text: '关于我', link: '/my/' },
+      { text: '随笔', link: '/thoughts/' },
+      { text: '站点地图', link: '/sitemap.xml' }
     ],
 
     editLink: {
