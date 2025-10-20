@@ -3,20 +3,18 @@
 layout: home
 
 hero:
-  name: "vitepress-template"
-  text: "A starter template for VitePress"
-  tagline: My great project tagline
+  name: "www.mcenahle.org.cn"
+  text: "用Vitepress搭建的新版主页"
+  tagline: My great web project!
   actions:
     - theme: brand
-      text: Let's Begin
-      link: /quick-start/quick-start
+      text: 从了解我开始！
+      link: /my/
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: 我的十六人格
+    details: 我是 ISFJ-T（守护者），喜欢照顾每个人的心情
+  - title: 我喜欢、想要成为的职业
+    details: 护士、教师
 ---
 

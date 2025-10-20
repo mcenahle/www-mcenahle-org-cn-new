@@ -15,7 +15,7 @@ export default defineConfig({
     },
     nav: [
       { text: '主页', link: '/' },
-      { text: '关于我', link: '/me/' }
+      { text: '关于我', link: '/my/' }
     ],
 
     editLink: {
@@ -26,11 +26,11 @@ export default defineConfig({
     sidebar: [
       {
         text: '关于我',
-        collapsed: true,
+        collapsed: false,
         items: [
-          { text: '关于我 - 首页', link: '/me/' },
-          { text: '我的联系方式', link: '/me/contacts' },
-          { text: '我的项目', link: '/me/proj' }
+          { text: '关于我 - 首页', link: '/my/' },
+          { text: '我的联系方式', link: '/my/contacts' },
+          { text: '我的项目', link: '/my/proj' }
         ]
       },
       {
