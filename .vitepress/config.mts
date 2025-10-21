@@ -61,7 +61,10 @@ export default defineConfig({
         text: '政策文件',
         items: [
           { text: '政策文件 - 主页', link: '/policy-files/' },
-          { text: '中央八项规定', link: '/policy-files/zybxgd' }
+          { text: '中央八项规定', link: '/policy-files/zybxgd' },
+          { text: '中国政府网', link: '/policy-files/www-gov-cn' },
+          { text: '工业和信息化部', link: '/policy-files/miit' },
+          { text: '公安部', link: '/policy-files/mps' }
         ]
       },
       {
