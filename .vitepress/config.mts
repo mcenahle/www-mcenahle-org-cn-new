@@ -26,6 +26,7 @@ export default defineConfig({
     nav: [
       { text: '主页', link: '/' },
       { text: '关于我', link: '/my/' },
+      { text: '政策文件', link: '/policy-files/' },
       { text: '随笔', link: '/thoughts/' },
       { text: '站点地图', link: '/sitemap.xml' }
     ],
@@ -63,6 +64,7 @@ export default defineConfig({
           { text: '政策文件 - 主页', link: '/policy-files/' },
           { text: '中央八项规定', link: '/policy-files/zybxgd' },
           { text: '中国政府网', link: '/policy-files/www-gov-cn' },
+          { text: '卫生健康委员会', link: '/policy-files/nhc' },
           { text: '工业和信息化部', link: '/policy-files/miit' },
           { text: '公安部', link: '/policy-files/mps' }
         ]
