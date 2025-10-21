@@ -58,18 +58,18 @@ export default defineConfig({
         ]
       },
       {
-        text: '随笔',
-        collapsed: false,
+        text: '政策文件',
         items: [
-          { text: '随笔 - 主页', link: '/thoughts/' },
-          { text: '性格与行为', link: '/thoughts/personality-and-behavior/' }
+          { text: '政策文件 - 主页', link: '/policy-files/' },
+          { text: '中央八项规定', link: '/policy-files/zybxgd' }
         ]
       },
       {
-        text: '政策文件',
-        collapsed: false,
+        text: '随笔',
+        collapsed: true,
         items: [
-          { text: '中央八项规定', link: '/policy-files/' }
+          { text: '随笔 - 主页', link: '/thoughts/' },
+          { text: '性格与行为', link: '/thoughts/personality-and-behavior/' }
         ]
       },
       {
