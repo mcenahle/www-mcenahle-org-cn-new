@@ -92,7 +92,7 @@ export default defineConfig({
 
 footer: {
       message: '备案信息：<a href="https://beian.miit.gov.cn/" target="_blank">沪ICP备2025116360号-1</a> | <a href="https://www.beian.gov.cn/portal/registerSystemInfo?recordcode=31015102000182" target="_blank">沪公网安备31015102000182号</a>',
-      copyright: '© 2025 www.mcenahle.org.cn。保留所有版权。'
+      copyright: '© 2025 www.mcenahle.org.cn。保留所有权利。'
     }
   }
 })
