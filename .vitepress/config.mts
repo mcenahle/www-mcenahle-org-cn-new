@@ -66,6 +66,13 @@ export default defineConfig({
         ]
       },
       {
+        text: '政策文件',
+        collapsed: false,
+        items: [
+          { text: '中央八项规定', link: '/policy-files/' }
+        ]
+      },
+      {
         text: '示例',
         items: [
           { text: 'Markdown 示例', link: '/examples/markdown-examples' },
