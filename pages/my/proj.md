@@ -10,7 +10,7 @@ outline: deep
 
 ::: tip 感谢以下组织、个人，给我的项目提供了支持、或启发（排名**分先后**）：
 
-1. [上海交通大学医学院](https://www.shsmu.edu.cn/)
-2. [上海市第九人民医院](https://www.9hospital.com.cn/)
+1. [上海市交通大学医学院附属第九人民医院](https://www.9hospital.com.cn/)
+2. [上海交通大学医学院](https://www.shsmu.edu.cn/)
 3. [上海师范大学](https://www.shnu.edu.cn/)
 :::
