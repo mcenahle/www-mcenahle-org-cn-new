@@ -15,6 +15,9 @@ export default defineConfig({
   lastUpdated: true,
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
+    search: {
+      provider: 'local'
+    },
     outline: {
       level: [1, 3],    // 显示 h1 到 h3 级别的标题
     },
