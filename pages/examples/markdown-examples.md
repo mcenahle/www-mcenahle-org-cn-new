@@ -82,4 +82,4 @@ export default {
 
 ## 更多
 
-查看文档以获取 [完整的 Markdown 扩展列表](https://vitepress.dev/zh/guide/markdown)。
+查看 [文档](https://vitepress.dev/zh/guide/markdown) 以获取完整的 Markdown 扩展列表。
