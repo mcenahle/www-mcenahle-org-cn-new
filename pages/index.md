@@ -4,7 +4,7 @@ layout: home
 
 hero:
   name: "www.mcenahle.org.cn"
-  text: "用Vitepress搭建的新版主页"
+  text: "用 Vitepress 搭建的新版主页"
   tagline: My great web project!
   actions:
     - theme: brand
