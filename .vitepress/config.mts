@@ -28,7 +28,17 @@ export default defineConfig({
       { text: '关于我', link: '/my/' },
       { text: '政策文件', link: '/policy-files/' },
       { text: '随笔', link: '/thoughts/' },
-      { text: '站点地图', link: '/sitemap.xml' }
+      { text: '站点地图', link: '/sitemap.xml' },
+      {
+        text: '外站链接',
+        items: [
+          { text: '博客网站', link: 'https://blog.mcenahle.org.cn' },
+          { text: 'api 服务网站', link: 'https://api.mcenahle.org.cn' },
+          { text: '电子邮件网站', link: 'https://mail.mcenahle.org.cn' },
+          { text: '文档网站', link: 'https://docs.shm.ac.cn' },
+          { text: '状态监控网站', link: 'https://status.mcenahle.org.cn' }
+        ]
+      }
     ],
 
     editLink: {
