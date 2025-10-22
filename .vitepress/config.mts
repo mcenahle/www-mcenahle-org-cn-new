@@ -35,8 +35,14 @@ export default defineConfig({
           { text: '博客网站', link: 'https://blog.mcenahle.org.cn' },
           { text: 'api 服务网站', link: 'https://api.mcenahle.org.cn' },
           { text: '电子邮件网站', link: 'https://mail.mcenahle.org.cn' },
-          { text: '文档网站', link: 'https://docs.shm.ac.cn' },
+          { text: '文档网站', link: 'https://docs.mcenahle.org.cn' },
           { text: '状态监控网站', link: 'https://status.mcenahle.org.cn' }
+        ]
+      },
+      {
+        text: '友情链接',
+        items: [
+          { text: '上海市交通大学医学院附属第九人民医院', link: 'https://www.9hospital.com.cn' }
         ]
       }
     ],
@@ -90,8 +96,7 @@ export default defineConfig({
       {
         text: '示例',
         items: [
-          { text: 'Markdown 示例', link: '/examples/markdown-examples' },
-          { text: 'Runtime API 示例', link: '/examples/api-examples' }
+          { text: 'Markdown 示例', link: '/examples/markdown-examples' }
         ]
       }
     ],
