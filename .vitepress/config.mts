@@ -36,10 +36,11 @@ export default defineConfig({
         text: '外站链接',
         items: [
           { text: '博客网站', link: 'https://blog.mcenahle.org.cn' },
+          { text: '护理学笔记网站', link: 'https://nursing.mcenahle.org.cn' },
           { text: '大学证书进度网站', link: 'https://cert.mcenahle.org.cn' },
+          { text: '文档网站', link: 'https://docs.mcenahle.org.cn' },
           { text: 'api 服务网站', link: 'https://api.mcenahle.org.cn' },
           { text: '电子邮件网站', link: 'https://mail.mcenahle.org.cn' },
-          { text: '文档网站', link: 'https://docs.mcenahle.org.cn' },
           { text: '状态监控网站', link: 'https://status.mcenahle.org.cn' }
         ]
       },
