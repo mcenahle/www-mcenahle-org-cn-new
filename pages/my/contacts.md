@@ -12,5 +12,5 @@ outline: deep
 
 电子邮件列表：
 
-1. [admin@mcenahle.sh.cn](mailto:admin@mcenahle.sh.cn)
+1. [admin@mcenahle.sh.cn（**推荐**）](mailto:admin@mcenahle.sh.cn)
 2. [2867155965@qq.com（**仅作为备用**，在 admin@mcenahle.sh.cn 不可用或发生问题时使用）](mailto:2867155965@qq.com)
