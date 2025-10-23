@@ -8,3 +8,4 @@ outline: deep
 
 1. [前往医院时间表](/life-docs/hospital-travel)
 2. [学校课程日期表](/life-docs/school-lessons)
+3. [学校课程分组成员表](/life-docs/school-groups)
