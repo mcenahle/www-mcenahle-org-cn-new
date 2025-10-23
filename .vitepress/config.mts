@@ -10,7 +10,7 @@ export default defineConfig({
   ignoreDeadLinks: true,
   cleanUrls: true,
   sitemap: {
-    hostname: 'https://www-new.mcenahle.org.cn'
+    hostname: 'https://www.mcenahle.org.cn'
   },
   lastUpdated: true,
   themeConfig: {
