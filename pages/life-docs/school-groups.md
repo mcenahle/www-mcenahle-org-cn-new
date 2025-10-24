@@ -1,10 +1,3 @@
----
-prev:
-    text: '返回上一页'
-    link: '/life-docs'
-next: false
----
-
 # 学校课程分组成员表
 
 ::: info 排序方式

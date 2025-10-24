@@ -120,7 +120,8 @@ export default defineConfig({
             { text: '生活文档 - 主页', link: '/life-docs/' },
             { text: '前往医院时间表', link: '/life-docs/hospital-travel/' },
             { text: '学校课程日期表', link: '/life-docs/school-lessons' },
-            { text: '学校课程分组成员表', link: '/life-docs/school-groups' }
+            { text: '学校课程分组成员表', link: '/life-docs/school-groups' },
+            { text: '学校分数表', link: '/life-docs/school-scores' }
           ]
         }
       ],

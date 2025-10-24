@@ -1,10 +1,3 @@
----
-prev:
-    text: '返回上一页'
-    link: '/life-docs'
-next: false
----
-
 # 前往医院时间表
 
 ## 暑假（2025年）
