@@ -33,6 +33,12 @@ export default defineConfig({
       { text: '随笔', link: '/thoughts/' },
       { text: '站点地图', link: '/sitemap.xml' },
       {
+        text: '工具',
+        items: [
+          { text: '随机数生成器 - 由 random.org 提供框架', link: '/random-number-generator.html' }
+        ]
+      },
+      {
         text: '外站链接',
         items: [
           { text: '博客网站', link: 'https://blog.mcenahle.org.cn' },
