@@ -35,7 +35,7 @@ export default defineConfig({
       {
         text: '工具',
         items: [
-          { text: '随机数生成器 - 由 random.org 提供框架', link: '/random-number-generator.html' }
+          { text: '随机数生成器 - 由 random.org 提供框架', link: 'https://www.mcenahle.org.cn/random-number-generator.html' }
         ]
       },
       {
