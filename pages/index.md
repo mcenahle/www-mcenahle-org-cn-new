@@ -12,7 +12,6 @@ hero:
       link: /my/
     - theme: alt
       text: 查看旧版网站（使用 Wordpress 搭建的） >
-↗️
       link: https://www-archive.mcenahle.org.cn/
 
 features:
