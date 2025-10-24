@@ -89,41 +89,60 @@ export default defineConfig({
       text: '最后更新于'
     },
 
-    sidebar: [
-      {
-        text: '关于我',
-        items: [
-          { text: '关于我 - 主页', link: '/my/' },
-          { text: '我的项目', link: '/my/proj' },
-          { text: '我的联系方式', link: '/my/contacts' }
-        ]
-      },
-      {
-        text: '政策文件',
-        items: [
-          { text: '政策文件 - 主页', link: '/policy-files/' },
-          { text: '中央八项规定', link: '/policy-files/zybxgd' },
-          { text: '中国政府网', link: '/policy-files/www-gov-cn' },
-          { text: '卫生健康委员会', link: '/policy-files/nhc' },
-          { text: '工业和信息化部', link: '/policy-files/miit' },
-          { text: '公安部', link: '/policy-files/mps' }
-        ]
-      },
-      {
-        text: '随笔',
-        collapsed: true,
-        items: [
-          { text: '随笔 - 主页', link: '/thoughts/' },
-          { text: '性格与行为', link: '/thoughts/personality-and-behavior/' }
-        ]
-      },
-      {
-        text: '示例',
-        items: [
-          { text: 'Markdown 示例', link: '/examples/markdown-examples' }
-        ]
-      }
-    ],
+    sidebar: {
+      '/my/': [
+        {
+          text: '关于我',
+          items: [
+            { text: '关于我 - 主页', link: '/my/' },
+            { text: '我的项目', link: '/my/proj' },
+            { text: '我的联系方式', link: '/my/contacts' }
+          ]
+        }
+      ],
+      '/policy-files/': [
+        {
+          text: '政策文件',
+          items: [
+            { text: '政策文件 - 主页', link: '/policy-files/' },
+            { text: '中央八项规定', link: '/policy-files/zybxgd' },
+            { text: '中国政府网', link: '/policy-files/www-gov-cn' },
+            { text: '卫生健康委员会', link: '/policy-files/nhc' },
+            { text: '工业和信息化部', link: '/policy-files/miit' },
+            { text: '公安部', link: '/policy-files/mps' }
+          ]
+        }
+      ],
+      '/life-docs/': [
+        {
+          text: '生活文档',
+          items: [
+            { text: '生活文档 - 主页', link: '/life-docs/' },
+            { text: '前往医院时间表', link: '/life-docs/hospital-travel/' },
+            { text: '学校课程日期表', link: '/life-docs/school-lessons' },
+            { text: '学校课程分组成员表', link: '/life-docs/school-groups' }
+          ]
+        }
+      ],
+      '/thoughts/': [
+        {
+          text: '随笔',
+          collapsed: true,
+          items: [
+            { text: '随笔 - 主页', link: '/thoughts/' },
+            { text: '性格与行为', link: '/thoughts/personality-and-behavior/' }
+          ]
+        }
+      ],
+      '/examples/': [
+        {
+          text: '示例',
+          items: [
+            { text: 'Markdown 示例', link: '/examples/markdown-examples' }
+          ]
+        }
+      ]
+    },
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/mcenahle' }
