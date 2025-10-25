@@ -44,6 +44,7 @@ export default defineConfig({
           { text: '博客网站', link: 'https://blog.mcenahle.org.cn' },
           { text: '护理学笔记网站', link: 'https://nursing.mcenahle.org.cn' },
           { text: '大学证书进度网站', link: 'https://cert.mcenahle.org.cn' },
+          { text: '开发测试网站', link: 'https://dev.mcenahle.org.cn' },
           { text: '文档网站', link: 'https://docs.mcenahle.org.cn' },
           { text: 'api 服务网站', link: 'https://api.mcenahle.org.cn' },
           { text: '电子邮件网站', link: 'https://mail.mcenahle.org.cn' },
@@ -63,7 +64,7 @@ export default defineConfig({
       pattern: 'https://github.com/mcenahle/www-mcenahle-org-cn-new/edit/main/pages/:path',
       text: '在 GitHub 上编辑此页'
     },
-    
+
     docFooter: {
       prev: "上一页",
       next: "下一页",
@@ -149,7 +150,7 @@ export default defineConfig({
       { icon: 'github', link: 'https://github.com/mcenahle' }
     ],
 
-footer: {
+    footer: {
       message: '备案信息：<a href="https://beian.miit.gov.cn/" target="_blank">沪ICP备2025116360号-1</a> | <a href="https://www.beian.gov.cn/portal/registerSystemInfo?recordcode=31015102000182" target="_blank">沪公网安备31015102000182号</a>',
       copyright: '© 2025 www.mcenahle.org.cn。保留所有权利。'
     }
