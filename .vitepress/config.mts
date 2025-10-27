@@ -9,9 +9,9 @@ export default defineConfig({
   outDir: 'dist',
   ignoreDeadLinks: true,
   cleanUrls: true,
-  sitemap: {
-    hostname: 'https://www.mcenahle.org.cn'
-  },
+  // sitemap: {
+  //   hostname: 'https://www.mcenahle.org.cn'
+  // },
   lastUpdated: true,
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
@@ -31,7 +31,7 @@ export default defineConfig({
       { text: '关于我', link: '/my/' },
       { text: '政策文件', link: '/policy-files/' },
       { text: '随笔', link: '/thoughts/' },
-      { text: '站点地图', link: '/sitemap.xml' },
+      // { text: '站点地图', link: '/sitemap.xml' },
       {
         text: '工具',
         items: [
