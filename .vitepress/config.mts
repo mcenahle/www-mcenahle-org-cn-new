@@ -132,7 +132,8 @@ export default defineConfig({
           collapsed: true,
           items: [
             { text: '随笔 - 主页', link: '/thoughts/' },
-            { text: '性格与行为', link: '/thoughts/personality-and-behavior/' }
+            { text: '性格与行为', link: '/thoughts/personality-and-behavior/' },
+            { text: '一次咽喉镜检查的经历', link: '/thoughts/a-throat-exam-experience/' }
           ]
         }
       ],
