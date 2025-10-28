@@ -3,7 +3,7 @@
   "outputDirectory": "./dist",
   "redirects": [
     {
-      "source": "/history/",
+      "source": "/history.do",
       "destination": "https://www.kdocs.cn/l/cbBVIoZm4epQ",
       "statusCode": 302
     }
