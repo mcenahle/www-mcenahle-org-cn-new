@@ -3,13 +3,14 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>random.org 真随机数生成器</title>
+  <title>random.org 真随机数生成器 - www.mcenahle.org.cn</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://dev.mcenahle.org.cn/bootstrap/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://dev.mcenahle.org.cn/bootstrap/css/bootstrap-icons.css">
-  <script src="https://dev.mcenahle.org.cn/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="https://dev.mcenahle.org.cn/bootstrap-3.4/bootstrap.min.css">
+  <link rel="stylesheet" href="https://dev.mcenahle.org.cn/bootstrap-3.4/bootstrap-theme.min.css">
   <style>
-    a {
+    a,
+    a:hover,
+    a:focus {
       text-decoration: none;
     }
 
@@ -45,25 +46,28 @@
 <body class="bg-light">
   <div class="container mt-5">
     <h2 class="mb-4">基于 random.org 的真随机数生成器</h2>
-    <div class="row g-3">
-      <div class="col-md-6">
-        <div class="form-floating">
-          <input type="number" class="form-control" id="minVal" placeholder="最小值">
-          <label for="minVal">最小值</label>
-        </div>
+    <div class="row">
+      <div class="col-xs-6">
+        <label for="minVal">最小值</label>
+        <input type="number" class="form-control" id="minVal" placeholder="最小值">
       </div>
-      <div class="col-md-6">
-        <div class="form-floating">
-          <input type="number" class="form-control" id="maxVal" placeholder="最大值">
-          <label for="maxVal">最大值</label>
-        </div>
-      </div>
-      <div class="d-grid mt-3">
-        <input type="submit" class="generatebtn" id="generateBtn" value="生成真随机数" style="font-weight: bold;">
+      <div class="col-xs-6">
+        <label for="maxVal">最大值</label>
+        <input type="number" class="form-control" id="maxVal" placeholder="最大值">
       </div>
     </div>
+
+    <br>
+    <p align="right">
+      <!-- <div class="d-grid mt-3"> -->
+      <input type="submit" class="btn btn btn-primary" id="generateBtn" value="生成真随机数"
+        style="font-weight: bold; width: 200px;">
+      <!-- </div> -->
+    </p>
     <div class="mt-4">
-      <h4>结果：<span id="result" class="text-success"></span></h4>
+      <div class="alert alert-info" role="alert">
+        <h4>结果：<b><span id="result" class="text-success"></span></b></h4>
+      </div>
       <div id="error" class="text-danger mt-2"></div>
     </div>
     <br>
