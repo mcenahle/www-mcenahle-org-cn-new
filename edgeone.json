@@ -1,4 +1,11 @@
 {
   "buildCommand": "npm run build",
-  "outputDirectory": "./dist"
+  "outputDirectory": "./dist",
+  "redirects": [
+    {
+      "source": "/history/",
+      "destination": "https://www.kdocs.cn/l/cbBVIoZm4epQ",
+      "statusCode": 302
+    }
+  ]
 }
