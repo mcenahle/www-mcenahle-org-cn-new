@@ -134,7 +134,8 @@ export default defineConfig({
           items: [
             { text: '随笔 - 主页', link: '/thoughts/' },
             { text: '性格与行为', link: '/thoughts/personality-and-behavior' },
-            { text: '一次咽喉镜检查的经历', link: '/thoughts/a-throat-exam-experience' }
+            { text: '一次咽喉镜检查的经历', link: '/thoughts/a-throat-exam-experience' },
+            { text: '从四叶草到再思 SHSMU', link: '/thoughts/from-neae-to-shsmu' }
           ]
         }
       ],
