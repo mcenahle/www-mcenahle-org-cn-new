@@ -120,7 +120,7 @@ export default defineConfig({
           text: '生活文档',
           items: [
             { text: '生活文档 - 主页', link: '/life-docs/' },
-            { text: '前往医院时间表', link: '/life-docs/hospital-travel/' },
+            { text: '前往医院时间表', link: '/life-docs/hospital-travel' },
             { text: '学校课程日期表', link: '/life-docs/school-lessons' },
             { text: '学校课程分组成员表', link: '/life-docs/school-groups' },
             { text: '学校分数表', link: '/life-docs/school-scores' }
@@ -133,8 +133,8 @@ export default defineConfig({
           // collapsed: true,
           items: [
             { text: '随笔 - 主页', link: '/thoughts/' },
-            { text: '性格与行为', link: '/thoughts/personality-and-behavior/' },
-            { text: '一次咽喉镜检查的经历', link: '/thoughts/a-throat-exam-experience/' }
+            { text: '性格与行为', link: '/thoughts/personality-and-behavior' },
+            { text: '一次咽喉镜检查的经历', link: '/thoughts/a-throat-exam-experience' }
           ]
         }
       ],
