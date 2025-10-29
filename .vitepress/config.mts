@@ -130,7 +130,7 @@ export default defineConfig({
       '/thoughts/': [
         {
           text: '随笔',
-          collapsed: true,
+          // collapsed: true,
           items: [
             { text: '随笔 - 主页', link: '/thoughts/' },
             { text: '性格与行为', link: '/thoughts/personality-and-behavior/' },
