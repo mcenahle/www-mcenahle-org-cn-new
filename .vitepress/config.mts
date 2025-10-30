@@ -32,6 +32,7 @@ export default defineConfig({
       { text: '政策文件', link: '/policy-files/' },
       { text: '随笔', link: '/thoughts/' },
       // { text: '站点地图', link: '/sitemap.xml' },
+      { text: '护理学', link: '/nursing/' },
       {
         text: '工具',
         items: [
@@ -141,6 +142,24 @@ export default defineConfig({
           ]
         }
       ],
+      '/nursing/': [
+        {
+          text: '护理学',
+          items: [
+            { text: '护理学 - 主页', link: '/nursing/' },
+            {
+              text: '基础护理学',
+              items: [
+                { text: '基础护理学 - 介绍', link: '/nursing/basic' },
+                { text: '第二章 - 环境', link: '/nursing/basic-2' },
+                { text: '第三章 - 院感预防', link: '/nursing/basic-3' },
+                // ...可以继续嵌套
+              ]
+            }
+          ]
+        }
+      ],
+
       '/examples/': [
         {
           text: '示例',
