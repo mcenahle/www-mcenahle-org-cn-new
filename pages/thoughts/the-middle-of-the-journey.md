@@ -9,6 +9,6 @@
 《去月球》中，女博士曾经说过，
 
 > 结局永远也不会比过程重要。
-> <p align="right">——Eva Rosalene,《To the Moon》</p>
+> <p align="right">—— Eva Rosalene,《To the Moon》</p>
 
 我已经直视自己是大专生了。但我以这种方式，尝试提升自己，算是对这句话的实践吗？
