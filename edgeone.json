@@ -3,8 +3,8 @@
   "outputDirectory": "./dist",
   "redirects": [
     {
-      "source": "/history.do",
-      "destination": "https://www.kdocs.cn/l/cbBVIoZm4epQ",
+      "source": "/j.do",
+      "destination": "http://jxfw.shfilmart.com/tms/home.action",
       "statusCode": 302
     }
   ]
