@@ -19,7 +19,7 @@ export default defineConfig({
       provider: 'local'
     },
     outline: {
-      level: [1, 3],    // 显示 h1 到 h3 级别的标题
+      level: [1, 4],    // 显示 h1 到 h4 级别的标题
     },
     externalLinkIcon: true,
     logo: '/favicon.ico',
