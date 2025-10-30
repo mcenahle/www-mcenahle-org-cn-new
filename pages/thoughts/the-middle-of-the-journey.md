@@ -12,3 +12,5 @@
 > <p align="right">—— Eva Rosalene,《To the Moon》</p>
 
 我已经直视自己是大专生了。但我以这种方式，尝试提升自己，算是对这句话的实践吗？
+
+*（下午补充）* 之前说过两次“应该是最后一次去医院了”（[第一次](https://blog.mcenahle.org.cn/2025/10/23/338.html)，[第二次](https://www.mcenahle.org.cn/thoughts/a-throat-exam-experience)），结果再去了2次。那么这次搞点不同的：这次是旅途的中点，是不是代表还会再去呢？
