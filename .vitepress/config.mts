@@ -46,6 +46,7 @@ export default defineConfig({
           { text: '护理学笔记网站', link: 'https://nursing.mcenahle.org.cn' },
           { text: '大学证书进度网站', link: 'https://cert.mcenahle.org.cn' },
           { text: '开发测试网站', link: 'https://dev.mcenahle.org.cn' },
+          { text: '查询类网站', link: 'https://query.mcenahle.org.cn' },
           { text: '视频剪辑展示网站', link: 'https://video.mcenahle.org.cn' },
           { text: '文档网站', link: 'https://docs.mcenahle.org.cn' },
           { text: 'api 服务网站', link: 'https://api.mcenahle.org.cn' },
