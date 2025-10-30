@@ -111,7 +111,8 @@ export default defineConfig({
             { text: '中国政府网', link: '/policy-files/www-gov-cn' },
             { text: '卫生健康委员会', link: '/policy-files/nhc' },
             { text: '工业和信息化部', link: '/policy-files/miit' },
-            { text: '公安部', link: '/policy-files/mps' }
+            { text: '公安部', link: '/policy-files/mps' },
+            { text: '2025年上海市专升本文件', link: '/policy-files/2025-zsb' }
           ]
         }
       ],
