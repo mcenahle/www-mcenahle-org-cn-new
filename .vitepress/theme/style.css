@@ -84,6 +84,9 @@
   --vp-button-brand-active-border: transparent;
   --vp-button-brand-active-text: var(--vp-c-white);
   --vp-button-brand-active-bg: var(--vp-c-brand-1);
+  --vp-c-brand-1: #1a6fe7;
+  --vp-c-brand-2: #2680f0;
+  --vp-c-brand-3: #3291fa;
 }
 
 /**
@@ -92,17 +95,13 @@
 
 :root {
   --vp-home-hero-name-color: transparent;
-  --vp-home-hero-name-background: -webkit-linear-gradient(
-    120deg,
-    #bd34fe 30%,
-    #41d1ff
-  );
+  --vp-home-hero-name-background: -webkit-linear-gradient(120deg,
+      #349dff 30%,
+      #6773ff);
 
-  --vp-home-hero-image-background-image: linear-gradient(
-    -45deg,
-    #bd34fe 50%,
-    #47caff 50%
-  );
+  --vp-home-hero-image-background-image: linear-gradient(-45deg,
+      #349dff 50%,
+      #6773ff 50%);
   --vp-home-hero-image-filter: blur(44px);
 }
 
@@ -180,7 +179,8 @@
 /* 二级目录样式 */
 .VPSidebarItem.level-1 {
   padding-left: 8px;
-  font-size: 10px;  /* 设置更小的字体大小 */
+  font-size: 10px;
+  /* 设置更小的字体大小 */
 }
 
 /* 右侧目录样式调整 */
@@ -198,4 +198,3 @@
   font-size: 12px;
   padding-left: 16px !important;
 }
-
