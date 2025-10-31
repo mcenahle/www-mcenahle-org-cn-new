@@ -32,7 +32,7 @@ export default defineConfig({
       { text: '政策文件', link: '/policy-files/' },
       { text: '随笔', link: '/thoughts/' },
       // { text: '站点地图', link: '/sitemap.xml' },
-      { text: '护理学', link: '/nursing/' },
+      // { text: '护理学', link: '/nursing/' },
       {
         text: '工具',
         items: [
