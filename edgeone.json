@@ -3,7 +3,7 @@
   "outputDirectory": "./dist",
   "redirects": [
     {
-      "source": "/j.do",
+      "source": "/j.ra",
       "destination": "http://jxfw.shfilmart.com/tms/home.action",
       "statusCode": 302
     }
