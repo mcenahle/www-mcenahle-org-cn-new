@@ -10,3 +10,4 @@ outline: deep
 2. [一次咽喉镜检查的经历](/thoughts/a-throat-exam-experience)
 3. [从四叶草到再思 SHSMU](/thoughts/from-neae-to-shsmu)
 4. [旅途的中点](/thoughts/the-middle-of-the-journey)
+5. [无题](/thoughts/no-title)
