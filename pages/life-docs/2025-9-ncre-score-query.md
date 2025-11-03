@@ -6,7 +6,7 @@
 
 2025年9月（第76次）全国计算机等级考试（NCRE）成绩、证书查询已开通，考生即日起可转到 [https://cjcx.neea.edu.cn/html1/folder/22014/5490-1.htm](https://cjcx.neea.edu.cn/html1/folder/22014/5490-1.htm) 进行查询，获证考生可下载电子证书。
 
-如忘记密码，可在 [https://iam.neea.edu.cn/forgetPw.html](https://iam.neea.edu.cn/forgetPw.html)，通过验证身份证号、手机号，或者国家网络身份认证（网号，详见 [公安部](https://www.mps.gov.cn)）进行密码重置。新密码要满足以下复杂性要求：>
+如忘记密码，可在 [https://iam.neea.edu.cn/forgetPw.html](https://iam.neea.edu.cn/forgetPw.html)，通过验证身份证号、手机号，或者国家网络身份认证（网号，详见 [公安部](https://www.mps.gov.cn)）进行密码重置。新密码要满足以下复杂性要求：
 
 1. 8-18位字符；
 
