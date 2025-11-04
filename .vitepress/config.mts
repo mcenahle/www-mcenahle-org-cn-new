@@ -142,7 +142,8 @@ export default defineConfig({
             { text: '一次咽喉镜检查的经历', link: '/thoughts/a-throat-exam-experience' },
             { text: '从四叶草到再思 SHSMU', link: '/thoughts/from-neae-to-shsmu' },
             { text: '旅途的中点', link: '/thoughts/the-middle-of-the-journey' },
-            { text: '无题', link: '/thoughts/no-title' }
+            { text: '无题', link: '/thoughts/no-title' },
+            { text: '从寻找天堂到影子工厂：世界迭代', link: '/thoughts/from-finding-paradise-to-impostor-factory' }
           ]
         }
       ],
