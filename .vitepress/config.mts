@@ -180,7 +180,7 @@ export default defineConfig({
     ],
 
     footer: {
-      message: '备案信息：<a href="https://beian.miit.gov.cn/" target="_blank">沪ICP备2025116360号-1</a> | <a href="https://www.beian.gov.cn/portal/registerSystemInfo?recordcode=31015102000182" target="_blank">沪公网安备31015102000182号</a>',
+      message: '备案信息：<a href="https://beian.miit.gov.cn/" target="_blank">沪ICP备2025116360号-1</a> | <a href="https://www.beian.gov.cn/portal/registerSystemInfo?recordcode=31015102000182" target="_blank">沪公网安备31015102000182号</a> SSL 证书状态：[![SSL 证书状态](https://zssl.com/api/badge/ssl-cert/www.mcenahle.org.cn?style=minimal&leftDisplay=ca&lang=zh)](https://zssl.com/zh/ssl-cert-verify?domain=www.mcenahle.org.cn)',
       copyright: '© 2025 www.mcenahle.org.cn。保留所有权利。'
     }
   }
