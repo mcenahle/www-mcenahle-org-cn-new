@@ -12,3 +12,4 @@ outline: deep
 4. [旅途的中点](/thoughts/the-middle-of-the-journey)
 5. [无题](/thoughts/no-title)
 6. [从寻找天堂到影子工厂：世界迭代](/thoughts/from-finding-paradise-to-impostor-factory)
+7. [一名牙科实习医生](/thoughts/a-dental-intern)
