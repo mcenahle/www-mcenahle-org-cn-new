@@ -58,7 +58,8 @@ export default defineConfig({
         text: '友情链接',
         items: [
           { text: '上海市交通大学医学院附属第九人民医院', link: 'https://www.9hospital.com.cn' },
-          { text: '上海交通大学医学院', link: 'https://www.shsmu.edu.cn/' }
+          { text: '上海市交通大学医学院', link: 'https://www.shsmu.edu.cn/' },
+          { text: '上海市复旦大学附属华山医院', link: 'https://www.huashan.org.cn' }
         ]
       }
     ],
