@@ -128,8 +128,7 @@ export default defineConfig({
             { text: '前往医院时间表', link: '/life-docs/hospital-travel' },
             { text: '学校课程日期表', link: '/life-docs/school-lessons' },
             { text: '学校课程分组成员表', link: '/life-docs/school-groups' },
-            { text: '学校分数表', link: '/life-docs/school-scores' },
-            { text: '2025年9月（第76次）全国计算机等级考试（NCRE）成绩、证书查询通知', link: '/life-docs/2025-9-ncre-score-query' }
+            { text: '学校分数表', link: '/life-docs/school-scores' }
           ]
         }
       ],
