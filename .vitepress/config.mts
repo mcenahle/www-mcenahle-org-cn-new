@@ -145,7 +145,8 @@ export default defineConfig({
             { text: '旅途的中点', link: '/thoughts/the-middle-of-the-journey' },
             { text: '无题', link: '/thoughts/no-title' },
             { text: '从寻找天堂到影子工厂：世界迭代', link: '/thoughts/from-finding-paradise-to-impostor-factory' },
-            { text: '一名牙科实习医生', link: '/thoughts/a-dental-intern' }
+            { text: '一名牙科实习医生', link: '/thoughts/a-dental-intern' },
+            { text: '《影子工厂（Impostor Factory）》Faye 的话', link: '/thoughts/impostor-factory-faye-says' }
           ]
         }
       ],
